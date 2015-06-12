@@ -1,0 +1,35 @@
+{
+  "name": "sugar-xhr",
+  "version": "1.0.0",
+  "description": "Simplified Promise wrapper around superagent. Based on orodio/oro-xhr.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node ./test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/3five/sugar-xhr"
+  },
+  "keywords": [
+    "xhr",
+    "promises",
+    "superagent"
+  ],
+  "author": "Jon Jaques <jon@3five.com>, orodio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3five/sugar-xhr/issues"
+  },
+  "homepage": "https://github.com/orodio/oro-xhr",
+  "dependencies": {
+    "es6-promise": "^2.3.0",
+    "object-assign": "^3.0.0",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.5.6",
+    "babel-loader": "^5.1.4",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10"
+  }
+}
