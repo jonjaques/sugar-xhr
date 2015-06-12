@@ -1,6 +1,6 @@
 {
   "name": "sugar-xhr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplified Promise wrapper around superagent. Based on orodio/oro-xhr.",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/3five/sugar-xhr"
+    "url": "github.com/jonjaques/sugar-xhr"
   },
   "keywords": [
     "xhr",
