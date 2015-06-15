@@ -8,7 +8,6 @@ module.exports = {
   output: {
     path: 'dist',
     filename: "index.js",
-    library: 'sugar-xhr',
     libraryTarget: 'commonjs2'
   },
   externals: {
