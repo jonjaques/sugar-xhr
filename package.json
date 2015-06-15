@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/jonjaques/sugar-xhr"
+    "url": "https://github.com/jonjaques/sugar-xhr"
   },
   "keywords": [
     "xhr",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/3five/sugar-xhr/issues"
   },
-  "homepage": "https://github.com/orodio/oro-xhr",
+  "homepage": "https://github.com/3five/sugar-xhr",
   "dependencies": {
     "es6-promise": "^2.3.0",
     "object-assign": "^3.0.0",
