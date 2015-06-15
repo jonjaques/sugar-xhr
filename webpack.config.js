@@ -8,6 +8,7 @@ module.exports = {
   output: {
     path: 'dist',
     filename: "index.js",
+    library: 'sugar-xhr',
     libraryTarget: 'commonjs2'
   },
   externals: {
@@ -20,8 +21,7 @@ module.exports = {
     loaders: [
       { 
         test: /\.js$/, 
-        include: [path.resolve('.')], 
-        exclude: [path.resolve('node_modules')],
+        include: [path.resolve('.')],
         loaders: ['babel-loader'] 
       }
     ]
